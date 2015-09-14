@@ -1,0 +1,317 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'gulp-mocha',
+1 verbose cli   'should',
+1 verbose cli   'signon',
+1 verbose cli   '--save' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.32
+4 verbose node symlink C:\Program Files\nodejs\\node.exe
+5 warn package.json BookAPI@0.0.0 No repository field.
+6 verbose readDependencies using package.json deps
+7 verbose cache add [ 'gulp-mocha@^2.0.0', null ]
+8 verbose cache add name=undefined spec="gulp-mocha@^2.0.0" args=["gulp-mocha@^2.0.0",null]
+9 verbose parsed url { protocol: null,
+9 verbose parsed url   slashes: null,
+9 verbose parsed url   auth: null,
+9 verbose parsed url   host: null,
+9 verbose parsed url   port: null,
+9 verbose parsed url   hostname: null,
+9 verbose parsed url   hash: null,
+9 verbose parsed url   search: null,
+9 verbose parsed url   query: null,
+9 verbose parsed url   pathname: 'gulp-mocha@^2.0.0',
+9 verbose parsed url   path: 'gulp-mocha@^2.0.0',
+9 verbose parsed url   href: 'gulp-mocha@^2.0.0' }
+10 verbose cache add [ 'should@^5.2.0', null ]
+11 verbose cache add name=undefined spec="should@^5.2.0" args=["should@^5.2.0",null]
+12 verbose parsed url { protocol: null,
+12 verbose parsed url   slashes: null,
+12 verbose parsed url   auth: null,
+12 verbose parsed url   host: null,
+12 verbose parsed url   port: null,
+12 verbose parsed url   hostname: null,
+12 verbose parsed url   hash: null,
+12 verbose parsed url   search: null,
+12 verbose parsed url   query: null,
+12 verbose parsed url   pathname: 'should@^5.2.0',
+12 verbose parsed url   path: 'should@^5.2.0',
+12 verbose parsed url   href: 'should@^5.2.0' }
+13 verbose cache add [ 'signon', null ]
+14 verbose cache add name=undefined spec="signon" args=["signon",null]
+15 verbose parsed url { protocol: null,
+15 verbose parsed url   slashes: null,
+15 verbose parsed url   auth: null,
+15 verbose parsed url   host: null,
+15 verbose parsed url   port: null,
+15 verbose parsed url   hostname: null,
+15 verbose parsed url   hash: null,
+15 verbose parsed url   search: null,
+15 verbose parsed url   query: null,
+15 verbose parsed url   pathname: 'signon',
+15 verbose parsed url   path: 'signon',
+15 verbose parsed url   href: 'signon' }
+16 verbose cache add name="gulp-mocha" spec="^2.0.0" args=["gulp-mocha","^2.0.0"]
+17 verbose parsed url { protocol: null,
+17 verbose parsed url   slashes: null,
+17 verbose parsed url   auth: null,
+17 verbose parsed url   host: null,
+17 verbose parsed url   port: null,
+17 verbose parsed url   hostname: null,
+17 verbose parsed url   hash: null,
+17 verbose parsed url   search: null,
+17 verbose parsed url   query: null,
+17 verbose parsed url   pathname: '^2.0.0',
+17 verbose parsed url   path: '^2.0.0',
+17 verbose parsed url   href: '^2.0.0' }
+18 verbose addNamed [ 'gulp-mocha', '^2.0.0' ]
+19 verbose addNamed [ null, '>=2.0.0-0 <3.0.0-0' ]
+20 verbose cache add name="should" spec="^5.2.0" args=["should","^5.2.0"]
+21 verbose parsed url { protocol: null,
+21 verbose parsed url   slashes: null,
+21 verbose parsed url   auth: null,
+21 verbose parsed url   host: null,
+21 verbose parsed url   port: null,
+21 verbose parsed url   hostname: null,
+21 verbose parsed url   hash: null,
+21 verbose parsed url   search: null,
+21 verbose parsed url   query: null,
+21 verbose parsed url   pathname: '^5.2.0',
+21 verbose parsed url   path: '^5.2.0',
+21 verbose parsed url   href: '^5.2.0' }
+22 verbose addNamed [ 'should', '^5.2.0' ]
+23 verbose addNamed [ null, '>=5.2.0-0 <6.0.0-0' ]
+24 silly lockFile a8a36098-gulp-mocha-2-0-0 gulp-mocha@^2.0.0
+25 verbose lock gulp-mocha@^2.0.0 C:\Users\nameinan\AppData\Roaming\npm-cache\a8a36098-gulp-mocha-2-0-0.lock
+26 silly lockFile cc43161c-should-5-2-0 should@^5.2.0
+27 verbose lock should@^5.2.0 C:\Users\nameinan\AppData\Roaming\npm-cache\cc43161c-should-5-2-0.lock
+28 silly lockFile 108be1ed-signon signon
+29 verbose lock signon C:\Users\nameinan\AppData\Roaming\npm-cache\108be1ed-signon.lock
+30 silly lockFile 108be1ed-signon signon
+31 silly lockFile 108be1ed-signon signon
+32 silly addNameRange { name: 'gulp-mocha',
+32 silly addNameRange   range: '>=2.0.0-0 <3.0.0-0',
+32 silly addNameRange   hasData: false }
+33 verbose addNamed [ 'signon', '' ]
+34 verbose addNamed [ null, '*' ]
+35 silly lockFile 558e39af-signon signon@
+36 verbose lock signon@ C:\Users\nameinan\AppData\Roaming\npm-cache\558e39af-signon.lock
+37 silly addNameRange { name: 'should', range: '>=5.2.0-0 <6.0.0-0', hasData: false }
+38 silly addNameRange { name: 'signon', range: '*', hasData: false }
+39 verbose request where is /signon
+40 verbose request registry https://registry.npmjs.org/
+41 verbose request id 08bd2f1793a3130f
+42 verbose url raw /signon
+43 verbose url resolving [ 'https://registry.npmjs.org/', './signon' ]
+44 verbose url resolved https://registry.npmjs.org/signon
+45 verbose request where is https://registry.npmjs.org/signon
+46 info trying registry request attempt 1 at 15:47:54
+47 http GET https://registry.npmjs.org/signon
+48 verbose request where is /gulp-mocha
+49 verbose request registry https://registry.npmjs.org/
+50 verbose url raw /gulp-mocha
+51 verbose url resolving [ 'https://registry.npmjs.org/', './gulp-mocha' ]
+52 verbose url resolved https://registry.npmjs.org/gulp-mocha
+53 verbose request where is https://registry.npmjs.org/gulp-mocha
+54 info trying registry request attempt 1 at 15:47:54
+55 verbose etag "52805VJB9VJC5W2GAOMSNBCJ7"
+56 http GET https://registry.npmjs.org/gulp-mocha
+57 verbose request where is /should
+58 verbose request registry https://registry.npmjs.org/
+59 verbose url raw /should
+60 verbose url resolving [ 'https://registry.npmjs.org/', './should' ]
+61 verbose url resolved https://registry.npmjs.org/should
+62 verbose request where is https://registry.npmjs.org/should
+63 info trying registry request attempt 1 at 15:47:54
+64 verbose etag "74YE5EJIGAY86R7CR4H3FMSA4"
+65 http GET https://registry.npmjs.org/should
+66 http 200 https://registry.npmjs.org/gulp-mocha
+67 silly registry.get cb [ 200,
+67 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+67 silly registry.get     etag: '"7G5PNOMA2I9AGX794ZH8IYPBC"',
+67 silly registry.get     'content-type': 'application/json',
+67 silly registry.get     'cache-control': 'max-age=60',
+67 silly registry.get     'content-length': '27516',
+67 silly registry.get     'accept-ranges': 'bytes',
+67 silly registry.get     date: 'Mon, 14 Sep 2015 10:17:56 GMT',
+67 silly registry.get     via: '1.1 varnish',
+67 silly registry.get     age: '40',
+67 silly registry.get     connection: 'keep-alive',
+67 silly registry.get     'x-served-by': 'cache-ams4122-AMS',
+67 silly registry.get     'x-cache': 'HIT',
+67 silly registry.get     'x-cache-hits': '1',
+67 silly registry.get     'x-timer': 'S1442225876.030354,VS0,VE0',
+67 silly registry.get     vary: 'Accept' } ]
+68 silly addNameRange number 2 { name: 'gulp-mocha',
+68 silly addNameRange   range: '>=2.0.0-0 <3.0.0-0',
+68 silly addNameRange   hasData: true }
+69 silly addNameRange versions [ 'gulp-mocha',
+69 silly addNameRange   [ '0.1.0',
+69 silly addNameRange     '0.1.1',
+69 silly addNameRange     '0.1.2',
+69 silly addNameRange     '0.1.3',
+69 silly addNameRange     '0.2.0',
+69 silly addNameRange     '0.3.0',
+69 silly addNameRange     '0.4.0',
+69 silly addNameRange     '0.4.1',
+69 silly addNameRange     '0.5.0',
+69 silly addNameRange     '0.5.1',
+69 silly addNameRange     '0.5.2',
+69 silly addNameRange     '1.0.0',
+69 silly addNameRange     '1.1.0',
+69 silly addNameRange     '1.1.1',
+69 silly addNameRange     '1.1.2',
+69 silly addNameRange     '2.0.0',
+69 silly addNameRange     '2.0.1',
+69 silly addNameRange     '2.1.0',
+69 silly addNameRange     '2.1.1',
+69 silly addNameRange     '2.1.2',
+69 silly addNameRange     '2.1.3' ] ]
+70 verbose addNamed [ 'gulp-mocha', '2.1.3' ]
+71 verbose addNamed [ '2.1.3', '2.1.3' ]
+72 silly lockFile 6235340d-gulp-mocha-2-1-3 gulp-mocha@2.1.3
+73 verbose lock gulp-mocha@2.1.3 C:\Users\nameinan\AppData\Roaming\npm-cache\6235340d-gulp-mocha-2-1-3.lock
+74 silly lockFile 6235340d-gulp-mocha-2-1-3 gulp-mocha@2.1.3
+75 silly lockFile 6235340d-gulp-mocha-2-1-3 gulp-mocha@2.1.3
+76 silly lockFile a8a36098-gulp-mocha-2-0-0 gulp-mocha@^2.0.0
+77 silly lockFile a8a36098-gulp-mocha-2-0-0 gulp-mocha@^2.0.0
+78 http 404 https://registry.npmjs.org/signon
+79 silly registry.get cb [ 404,
+79 silly registry.get   { 'content-type': 'application/json',
+79 silly registry.get     'cache-control': 'max-age=0',
+79 silly registry.get     'content-length': '2',
+79 silly registry.get     'accept-ranges': 'bytes',
+79 silly registry.get     date: 'Mon, 14 Sep 2015 10:17:56 GMT',
+79 silly registry.get     via: '1.1 varnish',
+79 silly registry.get     age: '0',
+79 silly registry.get     connection: 'close',
+79 silly registry.get     'x-served-by': 'cache-ams4124-AMS',
+79 silly registry.get     'x-cache': 'MISS',
+79 silly registry.get     'x-cache-hits': '0',
+79 silly registry.get     'x-timer': 'S1442225876.027969,VS0,VE699' } ]
+80 silly lockFile 558e39af-signon signon@
+81 silly lockFile 558e39af-signon signon@
+82 http 200 https://registry.npmjs.org/should
+83 silly registry.get cb [ 200,
+83 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+83 silly registry.get     etag: '"5PA44LP6HT9ZKOVT92J7VO1EL"',
+83 silly registry.get     'content-type': 'application/json',
+83 silly registry.get     'cache-control': 'max-age=60',
+83 silly registry.get     'content-length': '106813',
+83 silly registry.get     'accept-ranges': 'bytes',
+83 silly registry.get     date: 'Mon, 14 Sep 2015 10:17:56 GMT',
+83 silly registry.get     via: '1.1 varnish',
+83 silly registry.get     age: '53',
+83 silly registry.get     connection: 'keep-alive',
+83 silly registry.get     'x-served-by': 'cache-ams4138-AMS',
+83 silly registry.get     'x-cache': 'HIT',
+83 silly registry.get     'x-cache-hits': '1',
+83 silly registry.get     'x-timer': 'S1442225876.028501,VS0,VE1',
+83 silly registry.get     vary: 'Accept' } ]
+84 silly addNameRange number 2 { name: 'should', range: '>=5.2.0-0 <6.0.0-0', hasData: true }
+85 silly addNameRange versions [ 'should',
+85 silly addNameRange   [ '0.0.1',
+85 silly addNameRange     '0.0.2',
+85 silly addNameRange     '0.0.3',
+85 silly addNameRange     '0.0.4',
+85 silly addNameRange     '0.1.0',
+85 silly addNameRange     '0.2.0',
+85 silly addNameRange     '0.2.1',
+85 silly addNameRange     '0.3.0',
+85 silly addNameRange     '0.3.1',
+85 silly addNameRange     '0.3.2',
+85 silly addNameRange     '0.4.0',
+85 silly addNameRange     '0.4.1',
+85 silly addNameRange     '0.4.2',
+85 silly addNameRange     '0.5.0',
+85 silly addNameRange     '0.5.1',
+85 silly addNameRange     '0.6.0',
+85 silly addNameRange     '0.6.1',
+85 silly addNameRange     '0.6.2',
+85 silly addNameRange     '0.6.3',
+85 silly addNameRange     '1.0.0',
+85 silly addNameRange     '1.1.0',
+85 silly addNameRange     '1.1.1',
+85 silly addNameRange     '1.2.0',
+85 silly addNameRange     '1.2.1',
+85 silly addNameRange     '1.2.2',
+85 silly addNameRange     '1.3.0',
+85 silly addNameRange     '2.0.0',
+85 silly addNameRange     '2.0.1',
+85 silly addNameRange     '2.0.2',
+85 silly addNameRange     '2.1.0',
+85 silly addNameRange     '2.1.1',
+85 silly addNameRange     '3.0.0',
+85 silly addNameRange     '3.0.1',
+85 silly addNameRange     '3.1.0',
+85 silly addNameRange     '3.1.1',
+85 silly addNameRange     '3.1.2',
+85 silly addNameRange     '3.1.3',
+85 silly addNameRange     '3.1.4',
+85 silly addNameRange     '3.2.0-beta1',
+85 silly addNameRange     '3.2.0',
+85 silly addNameRange     '3.3.0',
+85 silly addNameRange     '3.3.1',
+85 silly addNameRange     '3.3.2',
+85 silly addNameRange     '4.0.0',
+85 silly addNameRange     '4.0.1',
+85 silly addNameRange     '4.0.3',
+85 silly addNameRange     '4.0.4',
+85 silly addNameRange     '4.1.0',
+85 silly addNameRange     '4.2.0',
+85 silly addNameRange     '4.2.1',
+85 silly addNameRange     '4.3.0',
+85 silly addNameRange     '4.3.1',
+85 silly addNameRange     '4.4.0',
+85 silly addNameRange     '4.4.1',
+85 silly addNameRange     '4.4.2',
+85 silly addNameRange     '4.4.3',
+85 silly addNameRange     '4.4.4',
+85 silly addNameRange     '4.5.0',
+85 silly addNameRange     '4.5.1',
+85 silly addNameRange     '4.5.2',
+85 silly addNameRange     '4.6.0',
+85 silly addNameRange     '4.6.1',
+85 silly addNameRange     '4.6.2',
+85 silly addNameRange     '4.6.3',
+85 silly addNameRange     '4.6.4',
+85 silly addNameRange     '4.6.5',
+85 silly addNameRange     '5.0.0',
+85 silly addNameRange     '5.0.1',
+85 silly addNameRange     '5.1.0',
+85 silly addNameRange     '5.2.0',
+85 silly addNameRange     '6.0.0',
+85 silly addNameRange     '6.0.1',
+85 silly addNameRange     '6.0.2',
+85 silly addNameRange     '6.0.3',
+85 silly addNameRange     '7.0.0',
+85 silly addNameRange     '7.0.1',
+85 silly addNameRange     '7.0.2',
+85 silly addNameRange     '7.0.3',
+85 silly addNameRange     '7.0.4',
+85 silly addNameRange     '7.1.0' ] ]
+86 verbose addNamed [ 'should', '5.2.0' ]
+87 verbose addNamed [ '5.2.0', '5.2.0' ]
+88 silly lockFile 99e47c2b-should-5-2-0 should@5.2.0
+89 verbose lock should@5.2.0 C:\Users\nameinan\AppData\Roaming\npm-cache\99e47c2b-should-5-2-0.lock
+90 silly lockFile 99e47c2b-should-5-2-0 should@5.2.0
+91 silly lockFile 99e47c2b-should-5-2-0 should@5.2.0
+92 silly lockFile cc43161c-should-5-2-0 should@^5.2.0
+93 silly lockFile cc43161c-should-5-2-0 should@^5.2.0
+94 error 404 Not Found
+94 error 404
+94 error 404 'signon' is not in the npm registry.
+94 error 404 You should bug the author to publish it
+94 error 404 It was specified as a dependency of 'BookAPI'
+94 error 404
+94 error 404 Note that you can also install from a
+94 error 404 tarball, folder, or http url, or git url.
+95 error System Windows_NT 6.1.7601
+96 error command "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "gulp-mocha" "should" "signon" "--save"
+97 error cwd C:\Users\nameinan\Desktop\foss\node\webapi
+98 error node -v v0.10.32
+99 error npm -v 1.4.28
+100 error code E404
+101 verbose exit [ 1, true ]
